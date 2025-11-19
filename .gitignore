@@ -23,8 +23,7 @@
 *.log
 
 # Model files
-models/*.gguf
-models/Phi-3.5-mini-instruct/
+models/
 
 # Python cache
 __pycache__/
@@ -42,71 +41,7 @@ patches/*.patch
 *.coverage
 *.prof
 
-# Ignore llama.cpp build artifacts
-llama.cpp/build/
-llama.cpp/*.o
-llama.cpp/*.a
-llama.cpp/*.so
-llama.cpp/*.dylib
-llama.cpp/*.exe
-llama.cpp/*.dll
-llama.cpp/*.test
-llama.cpp/*.out
-llama.cpp/__pycache__/
-llama.cpp/*.pyc
-llama.cpp/.DS_Store
-llama.cpp/.idea/
-llama.cpp/.vscode/
-llama.cpp/flake.lock
-llama.cpp/flake.nix
-llama.cpp/compile_commands.json
-llama.cpp/CMakeFiles/
-llama.cpp/bin/
-llama.cpp/common/
-llama.cpp/examples/
-llama.cpp/pocs/
-llama.cpp/Testing/
-llama.cpp/tests/
-llama.cpp/ggml-alloc.o
-llama.cpp/ggml.o
-llama.cpp/k_quants.o
-llama.cpp/grammar-parser.o
-llama.cpp/ggml-metal.o
-llama.cpp/ggml-cuda.o
-llama.cpp/ggml-opencl.o
-llama.cpp/llama.o
-llama.cpp/ggml-alloc.c
-llama.cpp/ggml-alloc.h
-llama.cpp/ggml-cuda.cu
-llama.cpp/ggml-cuda.h
-llama.cpp/ggml-metal.h
-llama.cpp/ggml-metal.m
-llama.cpp/ggml-metal.metal
-llama.cpp/ggml-mpi.c
-llama.cpp/ggml-mpi.h
-llama.cpp/ggml-opencl.cpp
-llama.cpp/ggml-opencl.h
-llama.cpp/llama.cpp
-llama.cpp/llama.h
-llama.cpp/Makefile
-llama.cpp/mypy.ini
-llama.cpp/Package.swift
-llama.cpp/README.md
-llama.cpp/requirements.txt
-llama.cpp/run_with_preset.py
-llama.cpp/SHA256SUMS
-llama.cpp/ci/
-llama.cpp/common/
-llama.cpp/docs/
-llama.cpp/examples/
-llama.cpp/gguf-py/
-llama.cpp/grammars/
-llama.cpp/media/
-llama.cpp/models/
-llama.cpp/pocs/
-llama.cpp/prompts/
-llama.cpp/scripts/
-llama.cpp/spm-headers/
-llama.cpp/tests/
-llama.cpp/patches/
-llama.cpp/1902-cuda.patch
+GEMINI.md
+env.sh
+go-llama.cpp/
+transfer_model_format/
